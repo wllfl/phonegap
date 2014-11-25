@@ -1,0 +1,110 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    background-color: #CFC3C3;
+    text-align: center;
+}
+
+.btn-menu{
+    width: 100%;
+    height: 40px;
+    display: block;
+    font-weight: bold;
+}
+
+/* Portrait layout (default) */
+.app {
+    width: 90%;
+    margin: 2px auto;
+    opacity: 0.6;
+}
+
+#erro{
+    display: none;
+}
+
+h2{
+    line-height: 30px;
+    color: #0C0303;
+    text-align: center;
+    text-decoration: underline;
+}
+
+label{
+    display: block;
+    width: 70px;
+    float: left;
+    line-height: 23px;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.inpt{
+    width: 60%;
+    height: 17px;
+    margin: 3px;
+    border: 1px dotted red;
+    background-color: #ccc;
+    font-weight: bold;
+    padding-left: 5px
+}
+
+#msg-erro{
+    display: block;
+    width: 100%;
+    color: red;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid red;
+    background-color: #E5A1A1;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 30px;
+    padding-top: 13px;
+}
+
+#display-mapa, #display-webserice{
+    width: 100%;
+    height: 300px;
+}
+
+#display-webservice ul li{
+    display: block;
+    text-align: left;
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px 0;
+    font-weight: bold;
+    background-color: #FC9F10;
+}
+
+#display-gps, #display-info, #display-internet, #display-mapa, #display-webservice{
+    display: none;
+}
+
